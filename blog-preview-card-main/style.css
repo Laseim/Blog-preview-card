@@ -1,0 +1,85 @@
+@font-face{
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+:root{
+    --primary: hsl(47, 88%, 63%);
+    --secondary: hsl(0, 0%, 100%);
+    --neutral : hsl(0, 0%, 42%);
+    --darkGrey : hsl(0, 0%, 7%);
+    --font-weight:800;
+    --font-size: 16px;
+    --font-weight-para: 500;
+}
+
+*{
+    font-family: Figtree;
+    color: hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 16px;
+    box-shadow: rgba(18,18,18,1)6px 8px 3.2px;
+    border: 1px solid hsl(0, 0%, 7%);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: epx 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 8px 0;
+    font-weight: var(--font-weight);
+}
+
+.publsih{
+    margin: 4px 0;
+    font-size: var(--font-size);
+}
+
+.course-title{
+    font-size: 22px;
+    font-weight: var(--font-weight);
+    margin: 12px 0;
+}
+
+.description{
+    color: hsl(0, 0%, 7%);
+}
+
+.profile-pic{
+    float: left;
+    margin-top: 20px;
+}
+
+.profile-pic img{
+    width: 40px;
+    height: 40px;
+}
+
+.name{ 
+float: right;
+height: 40px;
+margin-left: 8px;
+line-height: 40px;
+font-weight: var(--font-weight);
+}
